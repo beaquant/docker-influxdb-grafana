@@ -68,6 +68,7 @@ COPY bash/profile .profile
 
 # Configure InfluxDB
 COPY influxdb/influxdb.conf /etc/influxdb/influxdb.conf
+RUN service influxdb start
 
 # Configure Grafana
 COPY grafana/grafana.ini /etc/grafana/grafana.ini
