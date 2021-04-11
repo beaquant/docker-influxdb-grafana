@@ -112,4 +112,4 @@ Port: 8086
 
 [grafana-version]: https://img.shields.io/badge/Grafana-7.5.3-brightgreen
 [influx-version]: https://img.shields.io/badge/Influx-1.8.4-brightgreen
-[chronograf-version]: https://img.shields.io/badge/Chronograf-1.8.6-brightgreen
+[chronograf-version]: https://img.shields.io/badge/Chronograf-1.8.10-brightgreen
