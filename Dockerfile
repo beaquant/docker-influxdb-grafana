@@ -1,5 +1,5 @@
 FROM debian:stretch-slim
-LABEL maintainer="Phil Hawthorne <me@philhawthorne.com>"
+LABEL maintainer="Tobias Armbruster <git@tobasium.de>"
 
 ENV DEBIAN_FRONTEND noninteractive
 ENV LANG C.UTF-8
