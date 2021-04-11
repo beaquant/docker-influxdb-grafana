@@ -75,5 +75,3 @@ COPY grafana/grafana.ini /etc/grafana/grafana.ini
 COPY run.sh /run.sh
 RUN ["chmod", "+x", "/run.sh"]
 CMD ["/run.sh"]
-
-ENTRYPOINT service influxdb restart && bash
