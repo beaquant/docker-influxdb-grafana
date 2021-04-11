@@ -48,7 +48,7 @@ RUN ARCH= && dpkgArch="$(dpkg --print-architecture)" && \
     && rm -rf .profile \
     # Install InfluxDB
     && wget --no-verbose https://dl.influxdata.com/influxdb/releases/influxdb2-${INFLUXDB_VERSION}-${ARCH}.deb \
-    && dpkg -i influxdb_${INFLUXDB_VERSION}_${ARCH}.deb \
+    && dpkg -i influxdb2-${INFLUXDB_VERSION}_${ARCH}.deb \
     && rm influxdb_${INFLUXDB_VERSION}_${ARCH}.deb \
     # Install Chronograf
     && wget https://dl.influxdata.com/chronograf/releases/chronograf_${CHRONOGRAF_VERSION}_${ARCH}.deb \
