@@ -68,7 +68,6 @@ COPY bash/profile .profile
 
 # Configure InfluxDB
 COPY influxdb/influxdb.conf /etc/influxdb/influxdb.conf
-RUN service influxdb start
 
 # Configure Grafana
 COPY grafana/grafana.ini /etc/grafana/grafana.ini
@@ -76,3 +75,5 @@ COPY grafana/grafana.ini /etc/grafana/grafana.ini
 COPY run.sh /run.sh
 RUN ["chmod", "+x", "/run.sh"]
 CMD ["/run.sh"]
+
+ENTRYPOINT service influxdb restart && bash
