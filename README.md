@@ -11,9 +11,11 @@ This is a Docker image based on the awesome [Docker Image with InfluxDB and Graf
 
 The main point of difference with this image is:
 
-* Updated InfluxDB
-* Updated Grafana
 
+* Updated Grafana
+* Updated ChronoGraf
+
+work on update influxdb to 2.0.4
 
 The main purpose of this image is to be used to show data from a [IO-Broker](https://www.iobroker.net/) installation.
 
@@ -21,7 +23,7 @@ The main purpose of this image is to be used to show data from a [IO-Broker](htt
 | Description  | Value   |
 |--------------|---------|
 | InfluxDB     | 1.8.4   |
-| ChronoGraf   | 1.8.6   |
+| ChronoGraf   | 1.8.10   |
 | Grafana      | 7.5.3   |
 
 
