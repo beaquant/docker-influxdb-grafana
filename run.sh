@@ -4,6 +4,3 @@
 chmod 0777 /var/lib/grafana
 
 exec /usr/bin/supervisord
-
-echo "Starting the influxdb daemon"
-service influxdb start
