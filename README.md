@@ -1,27 +1,29 @@
 # Docker Image with InfluxDB and Grafana
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/tobasium/docker-influxdb-grafana.svg)](https://dockerhub.com/philhawthorne/docker-influxdb-grafana) [![license](https://img.shields.io/github/license/philhawthorne/docker-influxdb-grafana.svg)](https://dockerhub.com/philhawthorne/docker-influxdb-grafana)
+[![Docker Pulls](https://img.shields.io/docker/pulls/tobasium/docker-influxdb-grafana.svg)](https://dockerhub.com/tobasium/docker-influxdb-grafana) [![license](https://img.shields.io/github/license/tobasium/docker-influxdb-grafana.svg)](https://dockerhub.com/tobasium/docker-influxdb-grafana)
 
 ![Grafana][grafana-version] ![Influx][influx-version] ![Chronograf][chronograf-version]
 
 [![Buy me a coffee][buymeacoffee-icon]][buymeacoffee]
 
 
-This is a Docker image based on the awesome [Docker Image with Telegraf (StatsD), InfluxDB and Grafana](https://github.com/samuelebistoletti/docker-statsd-influxdb-grafana) from [Samuele Bistoletti](https://github.com/samuelebistoletti).
+This is a Docker image based on the awesome [Docker Image with InfluxDB and Grafana](https://github.com/philhawthorne/docker-influxdb-grafana) from [Phil Hawthorne](https://github.com/philhawthorne).
 
 The main point of difference with this image is:
 
-* Persistence is supported via mounting volumes to a Docker container
-* Grafana will store its data in SQLite files instead of a MySQL table on the container, so MySQL is not installed
-* Telegraf (StatsD) is not included in this container
+* Updated InfluxDB
+* Updated Grafana
 
-The main purpose of this image is to be used to show data from a [Home Assistant](https://home-assistant.io) installation. For more information on how to do that, please see my website about how I use this container.
+
+The main purpose of this image is to be used to show data from a [IO-Broker](https://www.iobroker.net/) installation.
+
 
 | Description  | Value   |
 |--------------|---------|
 | InfluxDB     | 2.0.4   |
 | ChronoGraf   | 1.8.6   |
 | Grafana      | 7.5.3   |
+
 
 ## Quick Start
 
@@ -104,7 +106,7 @@ Port: 8086
 2. Launch `influx` to open InfluxDB Shell (CLI)
 
 [buymeacoffee-icon]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
-[buymeacoffee]: https://www.buymeacoffee.com/philhawthorne
+[buymeacoffee]: https://www.buymeacoffee.com/tobasium
 
 [grafana-version]: https://img.shields.io/badge/Grafana-7.5.3-brightgreen
 [influx-version]: https://img.shields.io/badge/Influx-2.0.4-brightgreen
