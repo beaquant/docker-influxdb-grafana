@@ -108,6 +108,6 @@ Port: 8086
 [buymeacoffee-icon]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
 [buymeacoffee]: https://www.buymeacoffee.com/tobasium
 
-[grafana-version]: https://img.shields.io/badge/Grafana-7.5.3-brightgreen
+[grafana-version]: https://img.shields.io/badge/Grafana-8.0.6-brightgreen
 [influx-version]: https://img.shields.io/badge/Influx-2.0.4-brightgreen
 [chronograf-version]: https://img.shields.io/badge/Chronograf-1.8.6-brightgreen
