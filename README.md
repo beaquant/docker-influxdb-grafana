@@ -22,7 +22,7 @@ The main purpose of this image is to be used to show data from a [IO-Broker](htt
 |--------------|---------|
 | InfluxDB     | 2.0.4   |
 | ChronoGraf   | 1.8.6   |
-| Grafana      | 7.5.3   |
+| Grafana      | 8.0.6   |
 
 
 ## Quick Start
