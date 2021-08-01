@@ -24,7 +24,7 @@ The main purpose of this image is to be used to show data from a [IO-Broker](htt
 |--------------|---------|
 | InfluxDB     | 1.8.4   |
 | ChronoGraf   | 1.8.10   |
-| Grafana      | 7.5.3   |
+| Grafana      | 8.0.6   |
 
 
 ## Quick Start
@@ -110,6 +110,6 @@ Port: 8086
 [buymeacoffee-icon]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
 [buymeacoffee]: https://www.buymeacoffee.com/tobasium
 
-[grafana-version]: https://img.shields.io/badge/Grafana-7.5.3-brightgreen
+[grafana-version]: https://img.shields.io/badge/Grafana-8.0.6-brightgreen
 [influx-version]: https://img.shields.io/badge/Influx-1.8.4-brightgreen
 [chronograf-version]: https://img.shields.io/badge/Chronograf-1.8.10-brightgreen
