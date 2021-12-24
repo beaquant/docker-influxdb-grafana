@@ -22,9 +22,9 @@ The main purpose of this image is to be used to show data from a [IO-Broker](htt
 
 | Description  | Value   |
 |--------------|---------|
-| InfluxDB     | 1.8.10   |
+| InfluxDB     | 1.8.10  |
 | ChronoGraf   | 1.9.1   |
-| Grafana      | 8.0.6   |
+| Grafana      | 8.3.3   |
 
 
 ## Quick Start
